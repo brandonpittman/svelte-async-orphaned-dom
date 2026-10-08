@@ -1,0 +1,19 @@
+{
+	"name": "svelte-async-orphan-repro",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vite build && playwright test"
+	},
+	"devDependencies": {
+		"@playwright/test": "1.61.1",
+		"@sveltejs/adapter-node": "6.0.0",
+		"@sveltejs/kit": "3.0.0",
+		"@sveltejs/vite-plugin-svelte": "7.2.0",
+		"svelte": "5.57.2",
+		"vite": "8.3.2"
+	}
+}
